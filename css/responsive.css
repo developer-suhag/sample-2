@@ -1,0 +1,120 @@
+@media all and (max-width:1280px) {
+    .fix-width {
+        width: 100%;
+        margin: auto;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .header {
+       
+    }
+}
+
+@media all and (max-width:1050px) {
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul {
+        list-style: none;
+        text-align: center;
+    }
+    .header-right ul li a {
+        padding: 0 25px;
+        line-height: 55px;
+        border-right: none;
+    }
+    .header-right ul li:first-child {
+        border-left: none;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .service-item h2 {
+        margin: 12px 0;
+        font-size: 25px;
+    }
+    .service-item p {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .header-right ul li a {
+        line-height: 20px;
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    .header-left img {
+        width: 180px;
+    }
+    .banner-caption h2 {
+        width: 325px;
+        font-size: 30px;
+        padding: 8px 15px;
+    }
+    .banner-caption h1 {
+        max-width: 415px;
+        padding: 8px 10px;
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    .service-item {
+        width: 100%;
+        padding: 20px 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .blog-left {
+        width: 100%;
+    }
+    .blog-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .fotter-left {
+        width: 100%;
+        text-align: center;
+    }
+    .fotter-right {
+        width: 100%;
+        text-align: center;
+    }
+    .fotter-right ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .fotter {
+        background: #34495e;
+        color: #ddd;
+        padding: 5px 0;
+    }
+}
+
+@media all and (max-width:450px) {
+    .header-right ul li a {
+        line-height: 20px;
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .header-left img {
+        width: 150px;
+    }
+    .banner-caption h2 {
+        width: 270px;
+        font-size: 25px;
+        padding: 8px 12px;
+    }
+    .banner-caption h1 {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+}
